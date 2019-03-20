@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef24dfcd-67df-4e29-8645-3ca129b3c8a1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/routes/rentals.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/rentals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/rentals.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/rentals.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/acceptance/list-rentals-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/acceptance/list-rentals-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,14 +25,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list-rentals-test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list-rentals-test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/acceptance/list-rentals-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="167">
+              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/adapters/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -69,6 +79,8 @@
         <option value="$PROJECT_DIR$/app/routes/rentals.js" />
         <option value="$PROJECT_DIR$/app/templates/rentals.hbs" />
         <option value="$PROJECT_DIR$/tests/acceptance/list-rentals-test.js" />
+        <option value="$PROJECT_DIR$/mirage/config.js" />
+        <option value="$PROJECT_DIR$/app/adapters/application.js" />
       </list>
     </option>
   </component>
@@ -86,7 +98,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="640" />
     <option name="height" value="777" />
@@ -98,12 +110,33 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="super-rentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="super-rentals" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="adapters" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="re&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;rent&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/routes/rentals.js&#10;list-re&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/tests/acceptance/list-rentals-test.js&#10;con&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/contact.hbs&#10;abou&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/about.hbs&#10;app&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/application.hbs&#10;rentals&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;index.js&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/routes/index.js&#10;renta&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;cont&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/contact.hbs&#10;list-r&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/tests/acceptance/list-rentals-test.js&#10;about.hbs&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/about.hbs&#10;route.js&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/router.js" />
+    <property name="SearchEverywhereHistoryKey" value="ada&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/adapters&#10;config.&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/mirage/config.js&#10;re&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;rent&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/routes/rentals.js&#10;list-re&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/tests/acceptance/list-rentals-test.js&#10;con&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/contact.hbs&#10;abou&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/about.hbs&#10;app&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/application.hbs&#10;rentals&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;index.js&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/routes/index.js&#10;renta&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;cont&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/contact.hbs&#10;list-r&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/tests/acceptance/list-rentals-test.js&#10;about.hbs&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/about.hbs&#10;route.js&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/router.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -175,15 +208,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553087400823</updated>
-      <workItem from="1553087407181" duration="3053000" />
+      <workItem from="1553087407181" duration="4145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3053000" />
+    <option name="totallyTimeSpent" value="4145000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="640" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -196,10 +229,10 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24945533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24878837" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -273,13 +306,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mirage/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="79" lean-forward="true" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/acceptance/list-rentals-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="167">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/adapters/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
