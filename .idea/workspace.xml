@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef24dfcd-67df-4e29-8645-3ca129b3c8a1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/templates/rentals.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/rentals.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/rental-listing.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/rental-listing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/components/rental-listing.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/components/rental-listing.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration/components/rental-listing-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration/components/rental-listing-test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rentals.hbs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rentals.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/rentals.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -25,8 +27,29 @@
       <file leaf-file-name="rental-listing.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/components/rental-listing.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+            <state relative-caret-position="150">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list-rentals-test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/acceptance/list-rentals-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rental-listing.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/rental-listing.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -47,8 +70,10 @@
         <option value="$PROJECT_DIR$/tests/acceptance/list-rentals-test.js" />
         <option value="$PROJECT_DIR$/mirage/config.js" />
         <option value="$PROJECT_DIR$/app/adapters/application.js" />
-        <option value="$PROJECT_DIR$/app/templates/components/rental-listing.hbs" />
         <option value="$PROJECT_DIR$/app/templates/rentals.hbs" />
+        <option value="$PROJECT_DIR$/app/components/rental-listing.js" />
+        <option value="$PROJECT_DIR$/tests/integration/components/rental-listing-test.js" />
+        <option value="$PROJECT_DIR$/app/templates/components/rental-listing.hbs" />
       </list>
     </option>
   </component>
@@ -104,7 +129,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="rental-li&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/components/rental-listing.hbs&#10;rental-list&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/components/rental-listing.js&#10;list-renta&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/tests/acceptance/list-rentals-test.js&#10;ada&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/adapters&#10;config.&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/mirage/config.js&#10;re&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;rent&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/routes/rentals.js&#10;list-re&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/tests/acceptance/list-rentals-test.js&#10;con&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/contact.hbs&#10;abou&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/about.hbs&#10;app&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/application.hbs&#10;rentals&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;index.js&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/routes/index.js&#10;renta&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;cont&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/contact.hbs&#10;list-r&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/tests/acceptance/list-rentals-test.js&#10;about.hbs&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/about.hbs&#10;route.js&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/router.js" />
+    <property name="SearchEverywhereHistoryKey" value="rent&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/tests/integration/components/rental-listing-test.js&#10;rental&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/tests/acceptance/list-rentals-test.js&#10;rental-li&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/components/rental-listing.hbs&#10;rental-list&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/components/rental-listing.js&#10;list-renta&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/tests/acceptance/list-rentals-test.js&#10;ada&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/adapters&#10;config.&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/mirage/config.js&#10;re&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;list-re&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/tests/acceptance/list-rentals-test.js&#10;con&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/contact.hbs&#10;abou&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/about.hbs&#10;app&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/application.hbs&#10;rentals&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;index.js&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/routes/index.js&#10;renta&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;cont&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/contact.hbs&#10;list-r&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/tests/acceptance/list-rentals-test.js&#10;about.hbs&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/about.hbs&#10;route.js&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/router.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -176,12 +201,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553087400823</updated>
-      <workItem from="1553087407181" duration="4752000" />
+      <workItem from="1553087407181" duration="6283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4752000" />
+    <option name="totallyTimeSpent" value="6283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -281,34 +306,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/list-rentals-test.js">
+    <entry file="file://$PROJECT_DIR$/app/templates/rentals.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        <state relative-caret-position="90">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/rental-listing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/components/rental-listing.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/components/rental-listing-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="22" column="91" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/components/rental-listing.hbs">
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/list-rentals-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/rental-listing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/rentals.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        <state relative-caret-position="315">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
