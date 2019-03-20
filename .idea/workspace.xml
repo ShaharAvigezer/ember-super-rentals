@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef24dfcd-67df-4e29-8645-3ca129b3c8a1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/about.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +14,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rentals.hbs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rentals.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/rentals.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.hbs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/about.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -30,11 +58,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/templates/application.hbs" />
         <option value="$PROJECT_DIR$/tests/acceptance/list-rentals-test.js" />
+        <option value="$PROJECT_DIR$/app/routes/index.js" />
+        <option value="$PROJECT_DIR$/app/templates/application.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/rentals.hbs" />
         <option value="$PROJECT_DIR$/app/templates/about.hbs" />
         <option value="$PROJECT_DIR$/app/templates/contact.hbs" />
-        <option value="$PROJECT_DIR$/app/templates/rentals.hbs" />
       </list>
     </option>
   </component>
@@ -54,7 +83,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="960" />
+    <option name="width" value="640" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectView">
@@ -69,7 +98,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="renta&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;abou&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/about.hbs&#10;cont&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/contact.hbs&#10;list-r&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/tests/acceptance/list-rentals-test.js&#10;about.hbs&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/about.hbs&#10;route.js&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/router.js&#10;app&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/application.hbs" />
+    <property name="SearchEverywhereHistoryKey" value="con&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/contact.hbs&#10;abou&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/about.hbs&#10;app&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/application.hbs&#10;rentals&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;index.js&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/routes/index.js&#10;renta&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/rentals.hbs&#10;cont&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/contact.hbs&#10;list-r&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/tests/acceptance/list-rentals-test.js&#10;about.hbs&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/templates/about.hbs&#10;route.js&#9;FILE&#9;file:///Users/shahar/Documents/Ember/super-rentals/app/router.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -141,15 +170,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553087400823</updated>
-      <workItem from="1553087407181" duration="1543000" />
+      <workItem from="1553087407181" duration="1938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1543000" />
+    <option name="totallyTimeSpent" value="1938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="960" height="777" extended-state="0" />
+    <frame x="0" y="23" width="640" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -165,7 +194,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945533" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24945533" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -198,9 +227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -210,24 +236,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/contact.hbs">
+    <entry file="file://$PROJECT_DIR$/app/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="45">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/about.hbs">
+    <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="61" />
+        <state relative-caret-position="285">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/rentals.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/contact.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/about.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
