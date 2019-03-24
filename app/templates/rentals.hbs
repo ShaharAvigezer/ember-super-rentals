@@ -2,14 +2,5 @@
   <div class="right tomster"></div>
   <h2>Welcome!</h2>
   <p>We hope you find exactly what you're looking for in a place to stay.</p>
-
-
-  <ListFilter @filter={{action "filterByCity"}} as |filteredResults|>
-    <ul class="results">
-      {{#each filteredResults as |rentalUnit|}}
-        <li><RentalListing @rental={{rentalUnit}}/></li>
-      {{/each}}
-    </ul>
-  </ListFilter>
-
 </div>
+{{outlet}}
