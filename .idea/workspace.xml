@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef24dfcd-67df-4e29-8645-3ca129b3c8a1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/components/list-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/list-filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/rentals.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/rentals.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/integration/components/list-filter-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration/components/list-filter-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/acceptance/list-rentals-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/acceptance/list-rentals-test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,26 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list-filter-test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list-filter-test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/integration/components/list-filter-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list-rentals-test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="list-rentals-test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/acceptance/list-rentals-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="28" column="56" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -104,7 +96,6 @@
         <option value="$PROJECT_DIR$/tests/integration/helpers/rental-property-type-test.js" />
         <option value="$PROJECT_DIR$/app/models/rental.js" />
         <option value="$PROJECT_DIR$/app/routes/rentals.js" />
-        <option value="$PROJECT_DIR$/tests/acceptance/list-rentals-test.js" />
         <option value="$PROJECT_DIR$/app/templates/components/list-filter.hbs" />
         <option value="$PROJECT_DIR$/mirage/config.js" />
         <option value="$PROJECT_DIR$/app/templates/components/rental-listing.hbs" />
@@ -112,6 +103,7 @@
         <option value="$PROJECT_DIR$/app/components/list-filter.js" />
         <option value="$PROJECT_DIR$/app/templates/rentals.hbs" />
         <option value="$PROJECT_DIR$/tests/integration/components/list-filter-test.js" />
+        <option value="$PROJECT_DIR$/tests/acceptance/list-rentals-test.js" />
       </list>
     </option>
   </component>
@@ -269,12 +261,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553087400823</updated>
-      <workItem from="1553087407181" duration="15085000" />
+      <workItem from="1553087407181" duration="15264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15085000" />
+    <option name="totallyTimeSpent" value="15264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -466,23 +458,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/list-rentals-test.js">
+    <entry file="file://$PROJECT_DIR$/tests/integration/components/list-filter-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/integration/components/list-filter-test.js">
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/list-rentals-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
         </state>
       </provider>
     </entry>
