@@ -15,7 +15,7 @@ export default Service.extend({
     this._super(...arguments);
   },
 
-  async getMapLocation(location) {
+  async getMapElement(location) {
     let camelizedLocation = camelize(location);
     let element = this.cachedMaps[camelizedLocation];
     if (!element) {

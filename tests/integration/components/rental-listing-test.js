@@ -1,12 +1,20 @@
+import Service from '@ember/service'
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { click, render } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
 
+let StubMapsService = Service.extend({
+  getMapElement() {
+    return Promise.resolve(document.createElement('div'));
+  }
+});
+
 module('Integration | Component | rental-listing', function (hooks) {
   setupRenderingTest(hooks);
 
   hooks.beforeEach(function () {
+    this.owner.register('service:map-element', StubMapsService);
     this.rental = {
       image: 'fake.png',
       title: 'test-title',
